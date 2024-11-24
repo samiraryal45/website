@@ -3,19 +3,21 @@ h1 {
     background-color: red;
     border: solid blue;
     position: absolute;
-    left: 50%;
+    left: 45%;
 
 
 }
 
 img {
-    padding-top: 50px;
+    padding-top: 100px;
     height: 300px;
     width: 500px;
+    display: block;
+    margin: 0 auto;
 }
 
 body{
-    background-color:  rgba(38, 40, 112, 0.577);
+    background-color:rgb(10, 200, 200);
 }
 .nav_bar{
     margin-top: 100px;
@@ -26,4 +28,8 @@ body{
     background-color: blue;
     color: red;
     border:  solid black;
+}
+#loremstyle{
+    background-color: rgb(34, 24, 92);
+    color: rgb(45,56, 200);
 }
