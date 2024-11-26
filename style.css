@@ -1,35 +1,21 @@
-h1 {
-    color: green;
-    background-color: red;
-    border: solid blue;
-    position: absolute;
-    left: 45%;
-
-
-}
-
-img {
-    padding-top: 100px;
+.nav_bar {
+    background-color: black;
     height: 300px;
-    width: 500px;
-    display: block;
-    margin: 0 auto;
+    border: 10px solid red;
+
 }
 
-body{
-    background-color:rgb(10, 200, 200);
-}
-.nav_bar{
-    margin-top: 100px;
-}
-.nav{
+.nav {
+    margin-top: 40px;
+
     max-width: 1200px;
-    margin: 0 auto  ;
-    background-color: blue;
-    color: red;
-    border:  solid black;
-}
-#loremstyle{
-    background-color: rgb(34, 24, 92);
-    color: rgb(45,56, 200);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 60px;
+    color: rgb(200, 120, 200);
+    position: relative;
+    top: 30%;
+    text-decoration: underline;
+
 }
